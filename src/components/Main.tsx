@@ -1,11 +1,11 @@
 import {
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaNodeJs, FaServer, FaDocker
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaGitAlt, FaNodeJs, FaServer, FaDocker, FaDatabase, FaCogs
 } from "react-icons/fa";
 
 import { SiTypescript, SiPostgresql, SiExpress } from "react-icons/si";
 import { FaDownload } from "react-icons/fa";
 import roxo from "../assets/roxo.png";
-import ProjectCard from "./projects/AgriRSlab.tsx";
+import ProjectCardAgris from "./projects/AgriRSlab.tsx";
 
 function Main() {
   return (
@@ -16,7 +16,7 @@ function Main() {
         <div className="hero-text">
           <h1>Thiago Guedes da S. Tolosa</h1>
           <h4>Desenvolvedor Fullstack</h4>
-          <a href="/Curriculo_Thiago_Tolosa.pdf" download className="btn-cv">
+          <a href="/Curriculo_Thiago_Tolosa.pdf" download="Curriculo_Thiago_Tolosa.pdf" className="btn-cv">
             <FaDownload /> Baixar Currículo
           </a>
         </div>
@@ -29,7 +29,7 @@ function Main() {
       <section id="projetos" className="section">
         <h2>Projetos</h2>
         <div className="projects-grid">
-          <ProjectCard />
+          <ProjectCardAgris />
         </div>
       </section>
 
@@ -54,9 +54,35 @@ function Main() {
 
       {/* ESTUDOS */}
       <section id="estudos" className="section">
-        <h2>Estou estudando</h2>
-        <p>Backend avançado, arquitetura de servidores e banco de dados.</p>
-      </section>
+  <h2>Atualmente estudando</h2>
+
+  <div className="studies">
+    <div className="study">
+      <FaServer />
+      <p>Construção de APIs REST utilizando Node.js e Express</p>
+    </div>
+
+    <div className="study">
+      <SiExpress />
+      <p>Estruturação de backend com separação em rotas, controllers e services</p>
+    </div>
+
+    <div className="study">
+      <SiPostgresql />
+      <p>Modelagem de dados e integração com PostgreSQL</p>
+    </div>
+
+    <div className="study">
+      <FaCogs />
+      <p>Arquitetura de aplicações e organização de código escalável</p>
+    </div>
+
+    <div className="study">
+      <FaDatabase />
+      <p>Boas práticas de persistência de dados e otimização de consultas</p>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
