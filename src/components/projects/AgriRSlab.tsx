@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
+/*FaExternalLinkAlt,*/ /* descomente essa sessão para a importação do icone*/
 
 function ProjectCardAgris() {
   const [open, setOpen] = useState(false);
