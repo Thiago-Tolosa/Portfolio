@@ -227,6 +227,7 @@ main {
   justify-content: center;
 
   overflow: hidden;
+  margin-bottom: -10px;
 }
 
 .hero-img {
@@ -260,15 +261,20 @@ main {
   z-index: 3;
   width: min(100%, 960px);
   margin: 0 auto;
+  display: flex;
+  justify-content: center; /* garante centralização */
 }
 
 .hero-text {
   position: absolute;
   max-width: 760px;
+  width: 100%;
   text-align: center;
-  margin: 0 auto;
+
+  left: 50%;
+  transform: translateX(-50%);
+
   bottom: 80%;
-  left: 7%;
 }
 
 .hero-eyebrow {

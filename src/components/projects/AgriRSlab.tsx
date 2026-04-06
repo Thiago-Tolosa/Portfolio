@@ -123,23 +123,14 @@ function ProjectCardAgris() {
               <h3>Links</h3>
 
               <div className="project-links">
-                <a
-                  href="https://github.com/KaimanByte/AgriRS-Lab"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-link"
-                >
+                <a href="https://github.com/KaimanByte/AgriRS-Lab" target="_blank" rel="noopener noreferrer" className="btn-link">
                   <FaGithub /> Ver repositório
                 </a>
-
-                <a
-                  href="https://github.com/KaimanByte/AgriRS-Lab"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-link btn-link-secondary"
-                >
+{/*
+                <a href="https://github.com/KaimanByte/AgriRS-Lab" target="_blank" rel="noopener noreferrer" className="btn-link btn-link-secondary">
                   <FaExternalLinkAlt /> Ver projeto
                 </a>
+*/} {/* Descomente essa parte e mude o link, caso suba o projeto em Deploy */}
               </div>
             </div>
           </div>
