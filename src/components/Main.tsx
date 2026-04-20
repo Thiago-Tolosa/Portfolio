@@ -15,6 +15,7 @@ import { SiTypescript, SiPostgresql, SiExpress } from "react-icons/si";
 
 import roxo from "../assets/roxo.png";
 import ProjectCardAgris from "./projects/AgriRSlab";
+import ProjectCardQRCode from "./projects/QRCode";
 
 function Main() {
   const scrollToProjects = () => {
@@ -78,6 +79,7 @@ function Main() {
 
         <div className="projects-grid">
           <ProjectCardAgris />
+          <ProjectCardQRCode />
         </div>
       </section>
 
