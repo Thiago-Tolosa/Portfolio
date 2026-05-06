@@ -136,7 +136,7 @@ function Main() {
 
             <div className="hero-actions">
               <a
-                href="/Curriculo_Thiago_Tolosa.pdf"
+                href={`${import.meta.env.BASE_URL}Curriculo_Thiago_Tolosa.pdf`}
                 download="Curriculo_Thiago_Tolosa.pdf"
                 className="btn-cv"
               >
@@ -159,7 +159,7 @@ function Main() {
         <div className="about-card">
           <div className="about-photo-wrap">
             <img
-              src="/Thiago.webp"
+              src={`${import.meta.env.BASE_URL}Thiago.webp`}
               alt="Foto de Thiago Tolosa"
               className="about-photo"
             />

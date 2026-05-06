@@ -29,7 +29,7 @@ function ProjectCardQRCode() {
     <>
       <article className="project-card">
         <img
-          src="/QrCode.png"
+          src={`${import.meta.env.BASE_URL}QrCode.png`}
           alt="Preview do projeto QR Studio"
         />
 
@@ -83,7 +83,7 @@ function ProjectCardQRCode() {
             </div>
 
             <img
-              src="/QrCode.png"
+              src={`${import.meta.env.BASE_URL}QrCode.png`}
               alt="Imagem do projeto QR Studio"
               className="modal-img"
             />

@@ -118,7 +118,7 @@ function Header() {
               {open && (
                 <div className="cv-menu">
                   <a
-                    href="/Curriculo_Thiago_Tolosa.pdf"
+                    href={`${import.meta.env.BASE_URL}Curriculo_Thiago_Tolosa.pdf`}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setOpen(false)}
@@ -127,7 +127,7 @@ function Header() {
                   </a>
 
                   <a
-                    href="/Curriculo_Thiago_Tolosa.pdf"
+                    href={`${import.meta.env.BASE_URL}Curriculo_Thiago_Tolosa.pdf`}
                     download
                     onClick={() => setOpen(false)}
                   >
