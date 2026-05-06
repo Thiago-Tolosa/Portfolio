@@ -17,6 +17,7 @@ import {
   FaChevronRight,
   FaCode,
   FaTools,
+  FaJava
 } from "react-icons/fa";
 
 import {
@@ -97,7 +98,7 @@ function Main() {
       title: "Em desenvolvimento",
       description: "Assuntos que estou aprofundando para evoluir como desenvolvedor.",
       items: [
-        { name: "Java", icon: <FaCode /> },
+        { name: "Java", icon: <FaJava /> },
         { name: "Arquitetura backend", icon: <FaServer /> },
         { name: "Boas práticas", icon: <FaTools /> },
         { name: "Testes", icon: <FaCode /> },
