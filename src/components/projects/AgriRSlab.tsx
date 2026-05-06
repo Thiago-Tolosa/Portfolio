@@ -30,7 +30,7 @@ function ProjectCardAgris() {
   return (
     <>
       <article className="project-card">
-        <img src="/AgriRSlab.png" alt="Preview do projeto AgriRSlab" />
+        <img src="/AgriRSlab.webp" alt="Preview do projeto AgriRSlab" />
 
         <div className="project-content">
           <div className="project-top">
@@ -79,7 +79,7 @@ function ProjectCardAgris() {
             </div>
 
             <img
-              src="/AgriRSlab.png"
+              src="/AgriRSlab.webp"
               alt="Imagem do projeto AgriRSlab"
               className="modal-img"
             />

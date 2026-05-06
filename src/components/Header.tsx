@@ -44,10 +44,10 @@ function Header() {
     const el = document.getElementById(id);
     if (!el) return;
 
-    const header = document.querySelector("header");
-    const headerHeight = header ? header.clientHeight : 90;
+    {/*const header = document.querySelector("header");
+    const headerHeight = header ? header.clientHeight : 90;*/}
 
-    const y = el.getBoundingClientRect().top + window.scrollY - headerHeight - 24;
+    const y = el.getBoundingClientRect().top + window.scrollY + 54;
 
     window.scrollTo({
       top: y,
@@ -94,17 +94,15 @@ function Header() {
             </li>
 
             <li>
+              <button onClick={() => scrollToSection("sobre")}>Sobre</button>
+            </li>
+
+            <li>
               <button onClick={() => scrollToSection("projetos")}>Projetos</button>
             </li>
 
             <li>
-              <button onClick={() => scrollToSection("habilidades")}>
-                Habilidades
-              </button>
-            </li>
-
-            <li>
-              <button onClick={() => scrollToSection("estudos")}>Estudos</button>
+              <button onClick={() => scrollToSection("habilidades")}>Habilidades</button>
             </li>
 
             <li className="cv-dropdown" ref={dropdownRef}>
