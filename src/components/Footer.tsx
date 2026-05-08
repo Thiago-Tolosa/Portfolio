@@ -7,7 +7,7 @@ function Footer() {
 
       <div className="footer-links">
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/thiago-guedes-4965b0390/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"

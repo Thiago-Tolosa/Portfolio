@@ -32,6 +32,7 @@ import {
 import roxo from "../assets/roxo.png";
 import ProjectCardAgris from "./projects/AgriRSlab";
 import ProjectCardQRCode from "./projects/QRCode";
+import ProjectCardChatbotFatec from "./projects/ChatBotFatec";
 
 function Main() {
 
@@ -219,7 +220,7 @@ function Main() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://www.linkedin.com/in/thiago-guedes-4965b0390/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="about-contact-card"
@@ -249,6 +250,7 @@ function Main() {
         </div>
 
         <div className="projects-grid">
+          <ProjectCardChatbotFatec />
           <ProjectCardAgris />
           <ProjectCardQRCode />
         </div>

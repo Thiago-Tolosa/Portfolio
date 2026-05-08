@@ -36,7 +36,7 @@ function ProjectCardQRCode() {
         <div className="project-content">
           <div className="project-top">
             <h3>QR Studio</h3>
-            <span className="project-badge">Ferramenta Web</span>
+            <span className="project-badge">Independente</span>
           </div>
 
           <p>
