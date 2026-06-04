@@ -109,6 +109,13 @@ function ProjectCardAgris() {
             </div>
 
             <div className="modal-section">
+              <h3>Minha Participação</h3>
+              <p>Atuei como Desenvolvedor Full Stack durante todo o desenvolvimento do projeto, participando da implementação de funcionalidades no frontend e no backend da aplicação. Contribuí para a construção da interface do website, desenvolvimento de rotas e funcionalidades utilizando Node.js e Express, além da integração e manipulação de dados com PostgreSQL.</p>
+              <p>Também participei dos testes e da validação das funcionalidades desenvolvidas, auxiliando na resolução de problemas técnicos e na evolução da aplicação ao longo das sprints.</p>
+              <p>Na etapa final do projeto, tive papel importante na integração das entregas da equipe, realizando o alinhamento entre os diferentes módulos desenvolvidos pelos membros do grupo, garantindo a consistência da aplicação e contribuindo para a consolidação da versão final apresentada ao cliente.</p>
+            </div>
+
+            <div className="modal-section">
               <h3>Tecnologias</h3>
 
               <div className="project-tech">

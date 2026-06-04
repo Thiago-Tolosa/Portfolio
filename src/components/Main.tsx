@@ -12,7 +12,6 @@ import {
   FaDownload,
   FaGithub,
   FaLinkedin,
-  FaEnvelope,
   FaChevronLeft,
   FaChevronRight,
   FaCode,
@@ -226,13 +225,6 @@ function Main() {
                   className="about-contact-card"
                 >
                   <FaLinkedin />
-                </a>
-
-                <a
-                  href="mailto:thiagoguedesdst@gmail.com"
-                  className="about-contact-card"
-                >
-                  <FaEnvelope />
                 </a>
               </div>
             </div>

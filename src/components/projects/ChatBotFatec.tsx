@@ -119,6 +119,28 @@ function ProjectCardChatbotFatec() {
             </div>
 
             <div className="modal-section">
+              <h3>Minha Participação</h3>
+
+              <p>
+                Atuei como Product Owner (PO) e Desenvolvedor Full Stack durante o
+                desenvolvimento do projeto. Como PO, fui responsável pelo levantamento e
+                refinamento de requisitos junto ao cliente, definição e priorização do backlog,
+                planejamento das sprints e acompanhamento das entregas, garantindo que
+                as funcionalidades desenvolvidas atendessem às necessidades da
+                Secretaria Acadêmica da Fatec Jacareí.
+              </p>
+
+              <p>
+                Além disso, participei ativamente do desenvolvimento da aplicação, contribuindo
+                tanto no frontend quanto no backend. Trabalhei na implementação de funcionalidades
+                utilizando React, TypeScript, Node.js e Express, integração com o banco de dados
+                PostgreSQL, desenvolvimento de regras de negócio, autenticação de usuários e testes
+                das funcionalidades. Também colaborei na resolução de problemas técnicos, integração
+                entre módulos e validação das entregas realizadas pela equipe.
+              </p>
+            </div>
+
+            <div className="modal-section">
               <h3>Tecnologias</h3>
 
               <div className="project-tech">
