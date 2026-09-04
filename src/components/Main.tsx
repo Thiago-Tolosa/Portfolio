@@ -219,7 +219,7 @@ function Main() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/thiago-guedes-4965b0390/"
+                  href="https://www.linkedin.com/in/thiago-tolosa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="about-contact-card"

@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaGithub } from "react-icons/fa";
-
-/*FaExternalLinkAlt,*/ /* descomente essa sessão para a importação do icone*/
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 function ProjectCardAgris() {
   const [open, setOpen] = useState(false);
@@ -135,11 +133,9 @@ function ProjectCardAgris() {
                 <a href="https://github.com/KaimanByte/AgriRS-Lab" target="_blank" rel="noopener noreferrer" className="btn-link">
                   <FaGithub /> Ver repositório
                 </a>
-{/*
-                <a href="https://github.com/KaimanByte/AgriRS-Lab" target="_blank" rel="noopener noreferrer" className="btn-link btn-link-secondary">
+                <a href="https://agrirs-lab.onrender.com/" target="_blank" rel="noopener noreferrer" className="btn-link btn-link-secondary">
                   <FaExternalLinkAlt /> Ver projeto
                 </a>
-*/} {/* Descomente essa parte e mude o link, caso suba o projeto em Deploy */}
               </div>
             </div>
           </div>
